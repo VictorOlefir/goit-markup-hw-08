@@ -1,0 +1,48 @@
+.regular {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.regular-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.regular-list {
+  display: flex;
+}
+
+.regular-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 92px;
+  width: 170px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #afb1b8;
+  border-radius: 4px;
+  transition: border-color 250ms var(--timing-function);
+  &:hover {
+    border-color: var(--active-color);
+  }
+  &:hover .regular-icon {
+    fill: var(--active-color);
+  }
+  &:focus {
+    border-color: var(--active-color);
+  }
+  &:focus .regular-icon {
+    fill: var(--active-color);
+  }
+}
+.regular-icon {
+  fill: #afb1b8;
+  transition: fill 250ms var(--timing-function);
+}
+
+.regular-list-item:not(:last-child) {
+  margin-right: 30px;
+}

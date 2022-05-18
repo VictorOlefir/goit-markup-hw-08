@@ -1,0 +1,24 @@
+/* 
+ черный _ основной цвет текста: #212121; 
+--main-text-color 
+ серый _ неактивные контакты, абзац: #757575; 
+--second-text-color 
+ белый _ background страницы : #FFFFFF; 
+--bg-white-color 
+ графит _ background героя и футер background: #2F303A; 
+--bg-hero-color 
+ серый _ неактивная кнопка: #F5F4FA; 
+--inactive_btn_color 
+синий _ лого и активных кнопок: #2196F3;
+--active-color */
+
+:root {
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --bg-white-color: #ffffff;
+  --bg-hero-color: #2f303a;
+  --inactive_btn_color: #f5f4fa;
+  --active-color: #2196f3;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --bg-overflay: #2196f3e5;
+}

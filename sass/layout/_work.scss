@@ -1,0 +1,38 @@
+.work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.work-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.work-list {
+  display: flex;
+}
+.work-item {
+  width: 370px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.work-box {
+  position: relative;
+}
+
+.work-top-title {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  color: var(--bg-white-color);
+  background: #2f303acc;
+  text-transform: uppercase;
+}
