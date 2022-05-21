@@ -1,17 +1,26 @@
 .regular {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 .regular-title {
   margin-bottom: 50px;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  @media screen and (min-width: 1200px) {
+    font-size: 36px;
+  }
 }
 .regular-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-right: -30px;
 }
 
 .regular-link {
@@ -19,7 +28,6 @@
   justify-content: center;
   align-items: center;
   height: 92px;
-  width: 170px;
   border-style: solid;
   border-width: 1px;
   border-color: #afb1b8;
@@ -43,6 +51,20 @@
   transition: fill 250ms var(--timing-function);
 }
 
+.regular-list-item {
+  width: calc(100% / 2 - 30px);
+  margin-bottom: 30px;
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 3 - 30px);
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc(100% / 6 - 30px);
+    margin-bottom: 0;
+  }
+}
 .regular-list-item:not(:last-child) {
   margin-right: 30px;
 }
