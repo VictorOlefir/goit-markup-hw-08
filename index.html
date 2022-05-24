@@ -75,6 +75,65 @@
           </li>
         </ul>
       </div>
+      <div class="mob-menu is-hidden">
+        <div class="container">
+          <div class="mob-menu-top">
+            <button type="button" class="menu-close-btn">
+              <svg class="close_menu__icon" width="40" height="40">
+                <use href="./image/index/symbol-defs.svg#icon-close-menu"></use>
+              </svg>
+            </button>
+            <ul class="mob-menu-list list">
+              <li class="mob-menu-list__item">
+                <a
+                  href="./index.html"
+                  class="mob-menu-list__link active-color-link"
+                  >Студия</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a href="./portfolio.html" class="mob-menu-list__link"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mob-menu-list__item">
+                <a href="" class="mob-menu-list__link">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="mob-contacts-list list">
+              <li class="mob-contacts-list__item">
+                <a href="tel:+380961111111" class="mob-contacts-list__tel">
+                  +38 096 111 11 11
+                </a>
+              </li>
+              <li class="mob-contacts-list__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="mob-contacts-list__mail"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="mob-soc-list">
+              <li class="mob-soc-list__item">
+                <a class="mob-soc-list__link" href="">Instagram</a>
+              </li>
+              <li class="mob-soc-list__item">
+                <a class="mob-soc-list__link" href="">Twitter</a>
+              </li>
+              <li class="mob-soc-list__item">
+                <a class="mob-soc-list__link" href="">Facebook</a>
+              </li>
+              <li class="mob-soc-list__item">
+                <a class="mob-soc-list__link" href="">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </header>
     <main>
       <!--Главная секция с кнопкой-->
@@ -160,6 +219,10 @@
             <li class="work-item">
               <div class="work-box">
                 <img
+                  srcset="
+                    ./image/index/img1.jpg    1x,
+                    ./image/index/img1-2x.jpg 2x
+                  "
                   src="./image/index/img1.jpg"
                   alt="пишем код"
                   width="370"
@@ -171,6 +234,10 @@
             <li class="work-item">
               <div class="work-box">
                 <img
+                  srcset="
+                    ./image/index/img2.jpg    1x,
+                    ./image/index/img2-2x.jpg 2x
+                  "
                   src="./image/index/img2.jpg"
                   alt="создаем интерфейс"
                   width="370"
@@ -182,6 +249,10 @@
             <li class="work-item">
               <div class="work-box">
                 <img
+                  srcset="
+                    ./image/index/img3.jpg    1x,
+                    ./image/index/img3-2x.jpg 2x
+                  "
                   src="./image/index/img3.jpg"
                   alt="подбираем цвета"
                   width="370"
@@ -200,6 +271,7 @@
           <ul class="staff-list list">
             <li class="staff-item">
               <img
+                srcset="./image/index/p1.jpg 1x, ./image/index/p1-2x.jpg 2x"
                 src="./image/index/p1.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
@@ -251,6 +323,7 @@
             </li>
             <li class="staff-item">
               <img
+                srcset="./image/index/p2.jpg 1x, ./image/index/p2-2x.jpg 2x"
                 src="./image/index/p2.jpg"
                 alt="Ольга Репина"
                 width="270"
@@ -302,6 +375,7 @@
             </li>
             <li class="staff-item">
               <img
+                srcset="./image/index/p3.jpg 1x, ./image/index/p3-2x.jpg 2x"
                 src="./image/index/p3.jpg"
                 alt="Николай Тарасов"
                 width="270"
@@ -353,6 +427,7 @@
             </li>
             <li class="staff-item">
               <img
+                srcset="./image/index/p4.jpg 1x, ./image/index/p4-2x.jpg 2x"
                 src="./image/index/p4.jpg"
                 alt="Михаил Ермаков"
                 width="270"
@@ -628,6 +703,8 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mob-menu.js"></script>
   </body>
 </html>
