@@ -1143,6 +1143,7 @@ img {
 .portfolio-projects-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
 }
 @media screen and (min-width: 768px) {
   .portfolio-projects-list {
@@ -1153,6 +1154,7 @@ img {
 
 .portfolio-item {
   width: 100%;
+  margin-bottom: 30px;
 }
 .portfolio-item img {
   display: block;
@@ -1163,14 +1165,12 @@ img {
   .portfolio-item {
     width: calc(50% - 30px);
     margin-left: 30px;
-    margin-top: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
   .portfolio-item {
     width: calc(33.3333333333% - 30px);
     margin-left: 30px;
-    margin-top: 30px;
   }
 }
 

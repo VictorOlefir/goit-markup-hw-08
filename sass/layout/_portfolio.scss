@@ -52,6 +52,7 @@
 .portfolio-projects-list {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: -30px;
   @media screen and (min-width: 768px) {
     margin-top: -30px;
     margin-left: -30px;
@@ -59,6 +60,7 @@
 }
 .portfolio-item {
   width: 100%;
+  margin-bottom: 30px;
   img {
     display: block;
     width: 100%;
@@ -67,12 +69,12 @@
   @media screen and (min-width: 768px) {
     width: calc(100% / 2 - 30px);
     margin-left: 30px;
-    margin-top: 30px;
+    // margin-top: 30px;
   }
   @media screen and (min-width: 1200px) {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
-    margin-top: 30px;
+    // margin-top: 30px;
   }
 }
 .portfolio-top {
