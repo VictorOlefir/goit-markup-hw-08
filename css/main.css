@@ -1091,11 +1091,6 @@ img {
   justify-content: left;
   margin-bottom: 50px;
 }
-@media screen and (max-width: 768px) {
-  .portfolio-btn-list {
-    -margin-bottom: 15px;
-  }
-}
 @media screen and (min-width: 768px) {
   .portfolio-btn-list {
     justify-content: center;
