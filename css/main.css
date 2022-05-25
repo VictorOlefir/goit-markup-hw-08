@@ -837,6 +837,11 @@ img {
 .footer-container-logo {
   margin-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .footer-container-logo {
+    margin-bottom: 0px;
+  }
+}
 
 .footer-container {
   margin-bottom: 60px;
@@ -850,6 +855,7 @@ img {
   .footer-container {
     width: 206px;
     margin-left: 20px;
+    margin-bottom: 0px;
   }
 }
 

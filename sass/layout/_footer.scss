@@ -20,6 +20,9 @@
 }
 .footer-container-logo {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
 .footer-container {
   margin-bottom: 60px;
@@ -30,6 +33,7 @@
   @media screen and (min-width: 1200px) {
     width: 206px;
     margin-left: 20px;
+    margin-bottom: 0px;
   }
 }
 .footer-container-sub {
